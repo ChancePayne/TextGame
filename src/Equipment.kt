@@ -11,7 +11,7 @@ class PlayerCharacter(
     var defense = head.defense.plus(body.defense).plus(legs.defense)
 }
 
-class Weapon(val name: String, val power: Int)
+class Weapon(val name: String, val power: Int, val accuracy: Double = 0.9)
 
 class Helmet(val name: String, val defense: Int)
 
